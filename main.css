@@ -2,11 +2,13 @@
 * {
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
+        
 }
 
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
 }
 
 header.hero{
@@ -16,36 +18,33 @@ header.hero{
     background-position: center;
     height: 100vh;
     color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0 20px;
+    padding:20px;
     }
 
 
 .logo{
     font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 20px;
+    float: left;
 }
 
 .nav_links{
+    padding:20px;
     list-style: none;
     display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+    justify-content: flex-end;
     
 }
 .nav_links li {
     margin-right: 20px;
-
+    
 }
 
 .nav_links li a {
     text-decoration: none;
     color: #fff;
-    transition: color 0.3s ease;
+    font-size: 1.2rem;
+    
     }
 
 .nav_links li a:hover {
