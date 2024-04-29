@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Mer Regale Villa </title>
     <link rel="stylesheet" href="main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header class="hero">
         <nav>
-            <div class="logo">La Mer Regale Villa</div>
+            
             <ul class="nav_links">
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">ROOMS</a></li>
@@ -18,9 +19,60 @@
                 <li><a href="#">TEAM</a></li>
                 <li><a href="#">CONTACT</a></li>
             </ul>
-            <input type="text" placeholder="Search here">
-            <button><a href="#">Book Now</a></button>
+            
         </nav>
+        <form action="#" class="search-bar">
+            <input type="text" name="search" placeholder="Search">
+            <button type="submit" class="search_btn">
+                <i class='bx bx-search'></i>
+            </button>
+        </form>
     </header>
+    <div class="container">
+        <div class="content">
+            <h1 class="logo"><i class='bx bx-spa'></i>La Mer Regale Villa</h1>
+            <div class="text-sci">
+                <h2>Welcome to La Mer Regale Villa<br><span>Day in Paradise</span></h2>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+            </div>
+
+        </div>
+            <div class="logreg-box">
+                <div class="form-box login">
+                    <form action="#">
+                        <h3>Sign in</h3>
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxl-gmail'></i></span>
+                            <input type="email" required>
+                            <label>Email</label>
+                
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bx-lock-alt'></i></span>
+                            <input type="password" required>
+                            <label>Password</label>
+                        </div>
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">Remember me
+                            </label>
+                            <a href= "#">Forgot password</a>
+                        </div>
+                        <button type="submit" class="btn">Sign in</button>
+                        <div class="login-register">
+                            <p>Dont have an account?<a href="#"
+                                class="register-link"> Sign up</a></p>
+
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        
+    </div>
 </body>
 </html>
